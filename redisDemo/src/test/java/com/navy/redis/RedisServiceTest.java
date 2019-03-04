@@ -76,4 +76,11 @@ public class RedisServiceTest {
 		long endTime=System.currentTimeMillis();
 		System.out.println(endTime-startTime);
 	}
+	
+	@Test
+	public void testZset() {
+		for(int i = 0; i < 10; i++) {
+			
+		}
+	}
 }
